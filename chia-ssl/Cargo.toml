@@ -1,0 +1,11 @@
+[package]
+name = "chia-ssl"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+anyhow = "=1.0.42"
+bytes = "=1.0.1"
+chrono = "=0.4.19"
+openssl = { version = "=0.10.35", features = ["vendored"] }
+thiserror = "=1.0.26"
